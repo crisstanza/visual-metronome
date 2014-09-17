@@ -1,0 +1,33 @@
+.Show { display: default; }
+.Hide {	display: none; }
+
+div.Beats div {
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+}
+
+div.SubBeats div {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	margin-left: 5px;
+	margin-right: 45px;
+}
+
+div.Beats div.On {
+	background-color: gray;
+}
+div.SubBeats div.On {
+	background-color: gainsboro;
+}

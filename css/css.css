@@ -1,31 +1,32 @@
 .Show { display: default; }
 .Hide {	display: none; }
 
-div.Beats div, div.SubBeats div {
-	float: left;
+div { float: left; }
+
+div.BeatColumn {
+	width: 50px;
+	height: 120px;
+	border: 1px dotted red;
+	text-align: center;
+}
+
+div.Beat, div.SubBeat {
 	border-radius: 50%;
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
+	margin-bottom: 5px;
 }
 
-div.Beats div {
-	width: 120px;
-	height: 120px;
-	margin-right: 200px;
-	margin-bottom: 10px;
+div.Beat {
+	width: 40px;
+	height: 40px;
 }
 
-div.SubBeats div {
-	width: 60px;
-	height: 60px;
-	margin-left: 30px;
-	margin-right: 69px;
+div.SubBeat {
+	width: 10px;
+	height: 10px;
 }
 
-div.Beats div.On {
-	background-color: gray;
-}
-div.SubBeats div.On {
-	background-color: gainsboro;
-}
+div.On { background-color: gray; }
+div.Off { background-color: default; }
